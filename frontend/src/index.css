@@ -1,0 +1,71 @@
+/* Generales */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(230, 234, 238);
+}
+
+/* Home screen */
+.home {
+  text-align: center;
+}
+
+/* boton para ir a la pantalla de crear notas */
+
+.btn-add {
+  border-radius: 50%;
+}
+
+/* Contenedor para inicio de sesion y registro */
+
+.login-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Forma para agregar y actualizar notas */
+
+.note-box {
+  text-align: center;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto 0;
+}
+
+/* Boton para crear y actualizar notas */
+
+.btn-form {
+  max-width: 150px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.note-card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Componente tarjeta de cada nota */
+
+.note-card {
+  width: 250px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 1px 3px 1px rgb(206, 206, 206);
+}
+
+.btn-trash {
+  margin: 5px;
+}
+
+/* Componente Message */
+
+.message:hover {
+  cursor: pointer;
+}
